@@ -42,6 +42,7 @@ class App extends Component {
 render() {
     return (
       <div className="App"> 
+        <p> The token will be replaced every 30 seconds. If you wait too long you will have to refresh the page to get a new token. </p>
         <p> Token: {this.state.token}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
